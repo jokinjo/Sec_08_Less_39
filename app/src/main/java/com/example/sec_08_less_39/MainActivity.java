@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
             int k = 0;
             for (int i=0; i<3; i++) for (int j=0; j<3; j++) if (RC[i][j] == 0) k++;
             if (k==0 && sum!=-3 && sum!=+3) gameOver(Player.NONE);
+
         }
     }
     public void restartGame() {
