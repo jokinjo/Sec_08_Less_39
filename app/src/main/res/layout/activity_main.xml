@@ -40,6 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998"
         app:rowCount="3">
 
 
@@ -48,90 +49,90 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="9"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="9" />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="8"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="8" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="7"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="7" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="6"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="6" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="5"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="5" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="4"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="4" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="3"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="3" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="2"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="2" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
-            android:alpha="0.5"
+            android:alpha="0.3"
             android:background="#ff000000"
-            android:tag="1"
-            android:onClick="imageViewIsTapped" />
+            android:onClick="imageViewIsTapped"
+            android:tag="1" />
 
     </android.support.v7.widget.GridLayout>
 
@@ -149,5 +150,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.17000002" />
 </android.support.constraint.ConstraintLayout>
